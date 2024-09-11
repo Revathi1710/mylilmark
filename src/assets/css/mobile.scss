@@ -1,0 +1,133 @@
+@media screen and (max-width: 1920px) and (min-width: 899px) {
+    .outlets_banner_wrapper img {
+        visibility: hidden;
+    }
+    .outlets_banner_wrapper {
+        background-image: url("../images//keepin/Mayilmark\ banner\ 1920\ 980\ \(2\).png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-position: center;
+    }
+    .contact_banner_wrapper img {
+        visibility: hidden;
+    }
+    .contact_banner_wrapper {
+        background-image: url("../images//keepin/Mayilmark\ banner\ 1920\ 980\ \(2\).png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;       
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 499px) {
+    .outlets_banner_wrapper img {
+        visibility: hidden;
+    }
+    .outlets_banner_wrapper {
+        
+        background-image: url("../images/outlets/MM\ tablet\ 3.png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg {
+        font-size: 6rem;
+    }
+
+    .sub-head-title {
+        font-size: 5rem;
+    }
+
+    .outlet-1, .outlet-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_banner_wrapper img {
+        visibility: hidden;
+    }
+    .contact_banner_wrapper {
+        background-image: url("../images//keepin/Mayilmark\ banner\ 900\ 1080\ \(1\).png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;       
+    }
+}
+
+@media screen and (max-width: 500px){
+    .outlets_banner_wrapper img {
+        visibility: hidden;
+    }
+    .outlets_banner_wrapper {
+        background-image: url("../images/outlets/MM\ mobile\ 2.png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg {
+        font-size: 5rem;
+    }
+
+    .sub-head-title {
+        font-size: 3.5rem;
+    }
+
+    .outlet-1, .outlet-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_banner_wrapper img {
+        visibility: hidden;
+    }
+    .contact_banner_wrapper {
+        background-image: url("../images//keepin/Mayil\ mark\ banner\ 500\ 800\ \(2\).png");
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        background-repeat: no-repeat;       
+    }
+
+    .contact_address_header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 30px;
+    }
+    .contact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact_wrapper img {
+        z-index: -1;
+    }
+
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0px 10px;
+    }
+}
